@@ -13,14 +13,14 @@ You can also check out [wireguard-install](https://github.com/angristan/wireguar
 First, get the script and make it executable :
 
 ```bash
-curl -O https://raw.githubusercontent.com/Angristan/openvpn-install/master/openvpn-install.sh
-chmod +x openvpn-install.sh
+curl -O https://raw.githubusercontent.com/vince1408/openvpn-install/master/openvpn-install_custom.sh
+chmod +x openvpn-install_custom.sh
 ```
 
 Then run it :
 
 ```sh
-./openvpn-install.sh
+./openvpn-install_custom.sh
 ```
 
 You need to run the script as root and have the TUN module enabled.
@@ -43,12 +43,12 @@ It's also possible to run the script headless, e.g. without waiting for user inp
 
 Example usage:
 ```bash
-AUTO_INSTALL=y ./openvpn-install.sh
+AUTO_INSTALL=y ./openvpn-install_custom.sh
 
 # or
 
 export AUTO_INSTALL=y
-./openvpn-install.sh
+./openvpn-install_custom.sh
 ```
 
 A default set of variables will then be set, by passing the need for user input.

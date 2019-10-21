@@ -11,14 +11,23 @@ You can also check out [wireguard-install](https://github.com/angristan/wireguar
 ## Usage
 
 First, get the script and make it executable :
-
+for the custom :
 ```bash
 curl -O https://raw.githubusercontent.com/vince1408/openvpn-install/master/openvpn-install_custom.sh
+chmod +x openvpn-install_custom.sh
+```
+or for the orginal lol :
+```bash
+https://raw.githubusercontent.com/vince1408/openvpn-install/master/openvpn-install.sh
 chmod +x openvpn-install_custom.sh
 ```
 
 Then run it :
 
+```sh
+./openvpn-install_custom.sh
+```
+or
 ```sh
 ./openvpn-install_custom.sh
 ```

@@ -18,8 +18,8 @@ chmod +x openvpn-install_custom.sh
 ```
 or for the orginal lol :
 ```bash
-https://raw.githubusercontent.com/vince1408/openvpn-install/master/openvpn-install.sh
-chmod +x openvpn-install_custom.sh
+curl -O https://raw.githubusercontent.com/vince1408/openvpn-install/master/openvpn-install.sh
+chmod +x openvpn-install.sh
 ```
 
 Then run it :
@@ -29,7 +29,7 @@ Then run it :
 ```
 or
 ```sh
-./openvpn-install_custom.sh
+./openvpn-install.sh
 ```
 
 You need to run the script as root and have the TUN module enabled.
